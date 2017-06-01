@@ -4,7 +4,7 @@
 
 import functools
 
-class lazy(object):
+class lazy_property(object):
     """
         A decorator to remove the boiler plate for making lazy attributes/properties.
     """
