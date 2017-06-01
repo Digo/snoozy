@@ -89,3 +89,7 @@ class TestSnoozy(unittest.TestCase):
         self.assertEqual(Foo.bar.__name__, "bar")
         self.assertEqual(Foo.bar.__doc__, "bar func doc")
         self.assertEqual(Foo.bar.__module__, "snoozy.tests.test_snoozy")
+
+if __name__ == '__main__':
+    # Run the tests.
+    unittest.main()
