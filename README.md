@@ -2,7 +2,6 @@
 Defines a decoration to remove the boiler-plate for lazy attributes.
 
 ## Usage
------
 Just attach the annotation to the properties in a class
 
 ```python
